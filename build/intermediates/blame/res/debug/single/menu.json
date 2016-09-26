@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\slack\\demo\\MyApplication\\mediaGL\\build\\intermediates\\res\\merged\\debug\\menu\\media_effects.xml",
+        "source": "D:\\slack\\demo\\MyApplication\\mediaGL\\src\\main\\res\\menu\\media_effects.xml"
+    },
+    {
+        "merged": "D:\\slack\\demo\\MyApplication\\mediaGL\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\slack\\demo\\MyApplication\\mediaGL\\src\\main\\res\\menu\\main.xml"
+    }
+]
