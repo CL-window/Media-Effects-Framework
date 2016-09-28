@@ -112,7 +112,7 @@ public class MediaEffectsFragment extends Fragment implements GLSurfaceView.Rend
         }
     }
 
-    // 每次View被重绘时被调用
+    // 每次View被重绘时被调用,重点
     @Override
     public void onDrawFrame(GL10 gl) {
         if (!mInitialized) {
@@ -278,6 +278,7 @@ public class MediaEffectsFragment extends Fragment implements GLSurfaceView.Rend
     }
 
     private void applyEffect() {
+        // apply(int inputTexId, int width, int height, int outputTexId)
         mEffect.apply(mTextures[0], mImageWidth, mImageHeight, mTextures[1]);
     }
 
